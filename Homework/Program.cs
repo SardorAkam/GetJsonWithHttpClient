@@ -12,6 +12,11 @@ namespace HomeWork
             HttpClient httpClient = new HttpClient();
 
         }
-
+        //public static async IList<T> GetJson<T>(string https)
+        //{
+        //    HttpClient httpClient = new HttpClient();
+        //    var data = await httpClient.GetFromJsonAsync<IList<T>>(https);
+        //    return data;
+        //}
     }
 } 
