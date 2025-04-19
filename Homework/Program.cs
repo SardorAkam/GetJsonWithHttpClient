@@ -7,10 +7,11 @@ namespace HomeWork
 {
     class Program
     {
-        public static void Main()
+        static async Task Main()
         {
             HttpClient httpClient = new HttpClient();
 
         }
+
     }
 } 
