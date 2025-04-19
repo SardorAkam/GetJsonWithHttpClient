@@ -11,6 +11,8 @@ namespace HomeWork
         {
             HttpClient httpClient = new HttpClient();
 
+            var data = await httpClient.GetFromJsonAsync<IList<Customer>>(@"https://microsoftedge.github.io/Demos/json-dummy-data/64KB.json");
+
         }
         //public static async IList<T> GetJson<T>(string https)
         //{
